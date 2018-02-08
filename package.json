@@ -1,0 +1,17 @@
+{
+  "name": "landing-page-float",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bangun:css": "node-sass src/main.scss public/assets/css/main.css",
+    "menonton:css" : "nodemon -e scss -x \"npm run build:css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.12"
+  }
+}
