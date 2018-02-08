@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bangun:css": "node-sass src/main.scss public/assets/css/main.css",
-    "menonton:css" : "nodemon -e scss -x \"npm run build:css\""
+    "menonton:css" : "nodemon -e scss -x \"npm run bangun:css\""
   },
   "keywords": [],
   "author": "",
