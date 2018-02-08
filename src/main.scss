@@ -4,6 +4,7 @@ body{
 }
 .jumbotron{
     padding: 200px;
+    margin-bottom: 80px;
     background: #F08080;
     h1{
         font-size: 40px;
@@ -11,17 +12,6 @@ body{
         span{
             color: white;
             font-weight: lighter;
-        }
-    }
-    .left{
-        float: left;
-        width: 20%;
-    }
-    .right{
-        width: 50%;
-        float: right;
-        img{
-            width: 100%;
         }
     }
     button{
@@ -37,5 +27,17 @@ body{
         cursor: pointer;
         color: black;
         border: 2px solid white;
+    }
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    width: 50%;
+    float: right;
+    img{
+        width: 90%;
     }
 }
