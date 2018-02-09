@@ -1,0 +1,17 @@
+{
+  "name": "LandingPageWithSASS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass src/main.scss public/assets/css/main.css",
+    "watch:css": "nodemon -e scss -x \"npm run build:css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.12"
+  }
+}
