@@ -21,9 +21,9 @@ section .detail p {
 section#team {
   background: #505e5e; }
 
-section#card-team {
-  width: 100%;
-  height: 100%; }
+main#card-team {
+  padding: 0;
+  margin: 0; }
 
 .card {
   position: relative;
@@ -47,7 +47,8 @@ section.content-card {
   background: grey !important;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  position: relative; }
 
 .content-card img {
   box-sizing: content-box;

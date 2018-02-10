@@ -32,9 +32,11 @@ section#team{
     background: #505e5e;
 }
 
-section#card-team{
-    width: 100%;
-    height: 100%;
+main#card-team{
+    // width: 100%;
+    // height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .card{
@@ -64,6 +66,7 @@ section.content-card{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
 }
 .content-card {
     img{
