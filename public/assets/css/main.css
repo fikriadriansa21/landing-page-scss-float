@@ -64,3 +64,49 @@ section.content-card {
 .column-4 .card {
   float: left;
   clear: right; }
+div {
+  float: left;
+  margin: 5px 10px;
+  font-family: sans-serif;
+  background: #3e3e3e;
+  width: 25%;
+  padding: 20px 10px; }
+
+.container {
+  background: #343434;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0px; }
+
+body {
+  font-family: sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px; }
+
+h1 {
+  text-align: center; }
+
+.container_div {
+  text-align: center;
+  width: 100%;
+  margin: 15px auto;
+  box-sizing: border-box;
+  background: #343434; }
+
+div img {
+  width: 50px; }
+
+.modern {
+  border-bottom: 3px solid lightseagreen;
+  margin-left: 120px; }
+
+.simple {
+  border-bottom: 3px solid #f37674; }
+
+.flexible {
+  border-bottom: 3px solid #b4cc80; }
+
+p {
+  font-size: 10px;
+  text-align: center; }

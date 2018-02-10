@@ -1,0 +1,27 @@
+$FontColorBody:white;
+$TitleFont:sans-serif;
+$TitleSize: 30px;
+$TextAlign : center;
+$fontcontent : 10px;
+
+%SettingDiv{
+    float : left;
+    margin: 5px 10px;
+    font-family: $TitleFont;
+    background: #3e3e3e;
+    width : 25%;
+    padding: 20px 10px;
+}
+
+%wadah{
+    background: #343434;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+%textdiv{
+    text-align: $TextAlign;
+}
+
+
