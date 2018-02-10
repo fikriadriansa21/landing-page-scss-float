@@ -110,3 +110,40 @@ div img {
 p {
   font-size: 10px;
   text-align: center; }
+  margin: 0;
+  padding: 0; }
+
+.jumbotron {
+  padding: 200px;
+  margin-bottom: 80px;
+  background: #F08080; }
+  .jumbotron h1 {
+    font-size: 40px;
+    font-weight: bolder; }
+    .jumbotron h1 span {
+      color: white;
+      font-weight: lighter; }
+  .jumbotron button {
+    background-color: #F08080;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid white; }
+
+.left {
+  float: left;
+  width: 50%; }
+
+.right {
+  width: 50%;
+  float: right; }
+  .right img {
+    width: 90%; }
